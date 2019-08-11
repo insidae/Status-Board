@@ -1,7 +1,22 @@
-# Status-Board
-A personal project - Building an interface to show useful information at a glance.
 
-![Alt text](/StatusBoard_Progress_02.png?raw=true "Concept")
+<img src="/StatusBoard_Progress_02.png" align="right"
+     title="Concept" width="450" height="800">
+     
+# Status-Board
+Working title - HomeScreen
+
+## The Idea
+As our digital lives become increasingly complicated, and our homes get smarter with each new technological cycle, there's huge value in a simple visual display of useful relevant information.
+
+HomeScreen is an experiment aimed at providing that value.
+
+A display you can mount in your home that gives you the information you want to see, whenever you glance at it. Able to display more than a wall clock, and not intended to be hidden behind a smart mirror, HomeScreen is a modern upgrade to your home.
+
+Designed to be extensible but still easy to read from across the room, we hope that further down the line it'll provide visual readouts from your SmartHome (how much solar power it's generating, how much charge your car has, etc.)
+
+For the time being though, we're aiming for the basics: Time, Date, Weather, Calendar integrations, and a simple To-Do list. Once that's been achieved, we can start to think about further functionality.
+
+## Setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
