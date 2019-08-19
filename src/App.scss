@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+
+  h1 {
+    font-weight: 200;
+  }
+
+  h2 {
+    font-size: 1.25em;
+    font-weight: 100;
+
+    &.header {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.App-header {
+  background-color: #111;
+  height: 92vh;
+  padding: 4vh;
+  color: white;
+}
+
+.section {
+  display: inline-block;
+  margin-bottom: 4vh;
+}
+
+.time-date {
+  width: 60%;
+
+  .time {
+    font-size: 4em;
+    margin: 0;
+  }
+
+  .date {
+    margin-top: 8px;
+  }
+}
+
+.weather {
+  text-align: right;
+  width: 40%;
+}
+
+.today,
+.tomorrow,
+.to-do {
+  background-color: #222;
+  padding: 8vw;
+  width: 69vw;
+}
+
+.today {
+  border-left: 2vw solid #f15555;
+}
+
+.tomorrow {
+  border-left: 2vw solid #5a93e2;
+}
+
+.to-do {
+  border-left: 2vw solid #3ab65d;
+}

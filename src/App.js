@@ -1,22 +1,26 @@
 import React, { Component } from 'react';
-import './App.css';
-import Time from "./components/Time";
+import './App.scss';
+import TimeDate from "./components/TimeDate";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          <Time></Time>
-          <h2>Date</h2>
-          <h2>Weather</h2>
-          <h2>Today</h2>
-          <h2>Tomorrow</h2>
-          <h2>To-Do</h2>
+          <TimeDate></TimeDate>
+          <div className='weather section'>
+            <h2>Weather</h2>
+          </div>
+          <h2 className='header'>Today</h2>
+          <div className='today section'>
+          </div>
+          <h2 className='header'>Tomorrow</h2>
+          <div className='tomorrow section'>
+          </div>
+          <h2 className='header'>To-Do</h2>
+          <div className='to-do section'>
+          </div>
         </div>
-        <p className="App-intro">
-          Developer Version
-        </p>
       </div>
     );
   }
