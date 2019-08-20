@@ -9,6 +9,7 @@ class App extends Component {
         <div className="App-header">
           <TimeDate></TimeDate>
           <div className='weather section'>
+            <div className="weather-icon cloudy"></div>
             <h2>Weather</h2>
           </div>
           <h2 className='header'>Today</h2>
