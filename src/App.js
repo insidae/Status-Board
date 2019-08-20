@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
 import TimeDate from "./components/TimeDate";
+import Weather from "./components/Weather";
 
 class App extends Component {
   render() {
@@ -10,7 +11,7 @@ class App extends Component {
           <TimeDate></TimeDate>
           <div className='weather section'>
             <div className="weather-icon cloudy"></div>
-            <h2>Weather</h2>
+            <Weather></Weather>
           </div>
           <h2 className='header'>Today</h2>
           <div className='today section'>
