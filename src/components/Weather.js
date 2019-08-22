@@ -44,12 +44,17 @@ class WeatherContainer extends Component {
         // Formula for converting Kelvin to Celsius is ... °C = K - 273.15
         return (
           <ul className='weather-description'>
-            <li key={kelvin.temp}>
+          {weather.map(item => (
+              <li key={item.id} className="weather-icon">
+                <div class={"icon-" + item.id}></div>
+              </li>
+          ))}
+            <li key={kelvin.temp} className="weather-temperature">
               <h2>{(kelvin.temp - 273.15).toFixed(0)} &#176;</h2>
             </li>
             {weather.map(item => (
-                <li key={item.main}>
-                <h2>{item.main}</h2>
+                <li key={item.main} className="weather-description">
+                  <h2>{item.main}</h2>
                 </li>
             ))}
           </ul>

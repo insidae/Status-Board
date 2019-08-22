@@ -1,0 +1,92 @@
+
+
+.weather {
+    text-align: right;
+    width: 40%;
+  
+    .weather-icon {
+        div {
+            display: block;
+            width: 100%;
+            height: 78px;
+            background-position-x: right;
+            background-repeat: no-repeat;
+    
+            &.icon-200,
+            &.icon-201,
+            &.icon-202,
+            &.icon-210,
+            &.icon-211,
+            &.icon-212,
+            &.icon-221,
+            &.icon-230,
+            &.icon-231,
+            &.icon-232 {
+                background-image: url(/assets/weather_icons/tstorms.svg);
+            }
+    
+            &.icon-300,
+            &.icon-301,
+            &.icon-302,
+            &.icon-310,
+            &.icon-311,
+            &.icon-312,
+            &.icon-313,
+            &.icon-314,
+            &.icon-321 {
+                background-image: url(/assets/weather_icons/chanceflurries.svg);
+            }
+    
+            &.icon-500,
+            &.icon-501,
+            &.icon-502,
+            &.icon-503,
+            &.icon-504,
+            &.icon-511,
+            &.icon-520,
+            &.icon-521,
+            &.icon-522,
+            &.icon-531 {
+                background-image: url(/assets/weather_icons/rain.svg);
+            }
+    
+            &.icon-600,
+            &.icon-601,
+            &.icon-602,
+            &.icon-611,
+            &.icon-612,
+            &.icon-613,
+            &.icon-615,
+            &.icon-616,
+            &.icon-620,
+            &.icon-621,
+            &.icon-622 {
+                background-image: url(/assets/weather_icons/snow.svg);
+            }
+    
+            &.icon-701,
+            &.icon-711,
+            &.icon-721,
+            &.icon-731,
+            &.icon-741,
+            &.icon-751,
+            &.icon-761,
+            &.icon-762,
+            &.icon-771,
+            &.icon-781 {
+                background-image: url(/assets/weather_icons/fog.svg);
+            }
+    
+            &.icon-800 {
+                background-image: url(/assets/weather_icons/clear.svg);
+            }
+    
+            &.icon-801,
+            &.icon-802,
+            &.icon-803,
+            &.icon-804 {
+                background-image: url(/assets/weather_icons/cloudy.svg);
+            }
+        }
+    }
+}

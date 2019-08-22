@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
+import './Weather.scss';
 import TimeDate from "./components/TimeDate";
 import Weather from "./components/Weather";
 
@@ -10,7 +11,6 @@ class App extends Component {
         <div className="App-header">
           <TimeDate></TimeDate>
           <div className='weather section'>
-            <div className="weather-icon cloudy"></div>
             <Weather></Weather>
           </div>
           <h2 className='header'>Today</h2>
