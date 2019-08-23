@@ -16,7 +16,6 @@ class App extends Component {
           <Calendar></Calendar>
           <ToDoList></ToDoList>
         </div>
-        <script src="https://apis.google.com/js/platform.js"></script>
       </div>
     );
   }
