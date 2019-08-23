@@ -3,6 +3,8 @@ import './App.scss';
 import './Weather.scss';
 import TimeDate from "./components/TimeDate";
 import Weather from "./components/Weather";
+import Calendar from "./components/Calendar";
+import ToDoList from "./components/ToDoList";
 
 class App extends Component {
   render() {
@@ -10,19 +12,11 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <TimeDate></TimeDate>
-          <div className='weather section'>
-            <Weather></Weather>
-          </div>
-          <h2 className='header'>Today</h2>
-          <div className='today section'>
-          </div>
-          <h2 className='header'>Tomorrow</h2>
-          <div className='tomorrow section'>
-          </div>
-          <h2 className='header'>To-Do</h2>
-          <div className='to-do section'>
-          </div>
+          <Weather></Weather>
+          <Calendar></Calendar>
+          <ToDoList></ToDoList>
         </div>
+        <script src="https://apis.google.com/js/platform.js"></script>
       </div>
     );
   }

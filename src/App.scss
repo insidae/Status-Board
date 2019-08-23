@@ -65,7 +65,7 @@
     }
   }
 
-  .weather-description {
+  .weather-details {
     li {
       display: inline-block;
       list-style: none;
@@ -74,22 +74,28 @@
   }
 }
 
-.today,
-.tomorrow,
+.matthew,
+.emoke,
+.events,
 .to-do {
   background-color: #222;
-  padding: 8vw;
-  width: 69vw;
+  margin-bottom: 1vh;
+  padding: 4vw;
+  width: 78vw;
 }
 
-.today {
-  border-left: 2vw solid #f15555;
+.matthew {
+  border-left: 1.5vw solid #f15555;
 }
 
-.tomorrow {
-  border-left: 2vw solid #5a93e2;
+.emoke {
+  border-left: 1.5vw solid #5a93e2;
+}
+
+.events {
+  border-left: 1.5vw solid #3ab65d;
 }
 
 .to-do {
-  border-left: 2vw solid #3ab65d;
+  border-left: 1.5vw solid #222;
 }
